@@ -1,0 +1,1 @@
+{"cluster": "pod:aidc-t11", "namespace": "mohammed", "pod": "serving", "image": "almohamadiii/aidc-serving:cpu-v1", "node": "aidc-t11", "chat_status": 200}
