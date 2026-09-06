@@ -1,0 +1,1 @@
+{"cluster": "pod:aidc-t11", "namespace": "rasheed", "pod": "serving", "image": "betap/aidc-serving:cpu-v1", "node": "aidc-t11", "chat_status": 200}
