@@ -1,6 +1,22 @@
 # Serving-Stack-Team5
 ### Shahad Alkhattaf
 
+#### W4D2 – Make It Self-Healing
+
+**Self-Healing & Rolling Update**
+
+* Deployment automatically replaced a deleted pod.
+* Availability-first strategy: `maxUnavailable: 0`, `maxSurge: 1`.
+* Rolling update completed with zero dropped requests.
+
+**Verification**
+
+```text id="mvy2r1"
+PROBE RESULT ok=440 bad=0
+rolling update completed with 440 requests served and none dropped
+GREEN CHECK: PASS
+```
+
 #### W4D1 – First Cluster
 
 **Pod Failure Diagnosis**
