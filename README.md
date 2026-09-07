@@ -1,3 +1,0 @@
-# Serving-Stack-Team5
-
-
