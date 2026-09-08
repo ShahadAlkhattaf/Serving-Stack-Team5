@@ -1,6 +1,18 @@
 # Serving-Stack-Team5
 ### Shahad Alkhattaf
 
+#### W4D3 – Resource Policies and GPU Scheduling
+
+- Verified CPU/GPU scheduling and resource limits.
+- Deployed the shared vLLM engine on the GPU.
+
+**Verification**
+
+```text
+team engine: Guaranteed, GPU visible inside the container, Service name safe
+overdraft verified: Pending with 'Insufficient nvidia.com/gpu'
+GREEN CHECK: PASS
+
 #### W4D2 – Make It Self-Healing
 
 **Self-Healing & Rolling Update**
