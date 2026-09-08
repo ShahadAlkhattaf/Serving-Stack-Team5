@@ -13,4 +13,5 @@ Just like the CPU scenario, the pod will stay in a `Pending` state. If we check 
 ---
 
 ** GREEN CHECK: PASS ** 
+
 <img width="700" height="113" alt="Screenshot 2026-09-09 020605" src="https://github.com/user-attachments/assets/473c80d8-962f-4ad6-b604-bf433fdbb222" />
