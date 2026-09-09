@@ -1,6 +1,26 @@
 # Serving-Stack-Team5
 ### Shahad Alkhattaf
 
+#### W4D4 – Helm and Autoscaling
+
+- Deployed the serving stack with Helm and configured HPA.
+- Tested the **Aggressive** autoscaling policy under load.
+
+**Aggressive HPA Results**
+
+- Target CPU: **30%**
+- Replicas scaled: **1 → 4 → 5**
+- Peak CPU: **400%**
+- After load stopped, CPU dropped: **400% → 262% → 1% → 0%**
+- Scale-in: **5 → 1**
+- Scale-down stabilization window: **30s**
+
+**Verification**
+
+```text
+scale event observed: desired replicas 1 -> 5
+GREEN CHECK: PASS
+
 #### W4D3 – Resource Policies and GPU Scheduling
 
 - Verified CPU/GPU scheduling and resource limits.
