@@ -20,6 +20,7 @@
 ```text
 scale event observed: desired replicas 1 -> 5
 GREEN CHECK: PASS
+```
 
 #### W4D3 – Resource Policies and GPU Scheduling
 
