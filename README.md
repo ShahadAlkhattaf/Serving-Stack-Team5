@@ -1,6 +1,21 @@
 # Serving-Stack-Team5
 ### Shahad Alkhattaf
 
+#### W4D5 – Go Live
+
+**Go-Live & External Verification**
+
+- Verified the service from outside the cluster.
+- Enabled Prometheus metrics history for the vLLM engine.
+
+**Verification**
+
+```text
+metrics history: 373.0 serving series in the store
+outside-in posture verified for https://t11.aidc.nadir.sh serving Qwen/Qwen2.5-1.5B-Instruct-AWQ
+GREEN CHECK: PASS
+```
+
 #### W4D4 – Helm and Autoscaling
 
 - Deployed the serving stack with Helm and configured HPA.
